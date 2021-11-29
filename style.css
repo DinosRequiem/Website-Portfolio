@@ -1,0 +1,118 @@
+
+
+/* Classes */
+
+.center {
+  text-align: center;
+}
+/* I wanted to creat a contrast with the background to make it easier to read */
+
+.darkbg {
+  background-color: rgb(51, 51, 51);
+  color: white;
+  margin: 100px;
+   border-radius: 100px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+/* Wanted to center the images */
+
+.imgCenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/* moves the "ul" code to project correctly on the website */
+.indent {
+  padding-left: 750px;
+}
+/* moves the "ol" code to project correctly on the site */
+.indentAlt {
+  padding-left: 830px;
+}
+/* imgCenter wasnt working for the second photo, so this moves the photo where i want it */
+.move {
+  margin-left: 250px;
+}
+/* img center didnt move the map to the correct location, this code does that for me */
+.moveMap {
+  margin-left: 550px;
+}
+
+/* Overall CSS */
+/* creates a background that contrasts nicely with darkbg */
+body {
+  background-image: url(images/red.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 100%;
+}
+
+h1 {
+  color: white;
+  font-size: 56px;
+}
+
+h4 {
+  color: rgb(182, 7, 7);
+  font-size: 23px;
+}
+
+a:link {color: #ff00dd}
+a:visited {color: #8d0000}
+a:hover {color: #000000}
+a:active {color: #ffffff}
+
+/* using what i learned from adventure drill to make it more appealing */
+
+header p a {
+  color: #fff;
+  font-family: arial;
+  background-color: #36b3a8;
+  padding: 15px 40px;         
+  border-radius: 50px;       
+}
+/* positions my nave links to the correct locations */
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+}
+/* creates the bubbles my nav links are in with a custom background */
+nav a {
+  margin-right: 200px;
+  font-size: 18px;
+  font-family: Quattrocento, sans-serif;
+  color: #fff;
+  background-image: url(images/galaxy.png);
+  padding: 5px 20px;         
+  border-radius: 100px;
+  text-decoration: none;
+}
+/* aligns the nav bar */
+nav a:last-of-type {
+  margin-right: 20px;
+v
+}
+/* creates a custome text texture, visually pleasing */
+footer {
+ -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-image: url(images/galaxy.png);
+ font-size: 18px;
+
+}
+/* ensures all text is located in the darkbg class */
+p {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+  font-size: 20px;
+  color: darkblue;
+  font-family: cursive;
+}
