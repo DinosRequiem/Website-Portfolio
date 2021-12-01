@@ -32,10 +32,7 @@
 .indentAlt {
   padding-left: 830px;
 }
-/* imgCenter wasnt working for the second photo, so this moves the photo where i want it */
-.move {
-  margin-left: 250px;
-}
+
 /* img center didnt move the map to the correct location, this code does that for me */
 .moveMap {
   margin-left: 550px;
