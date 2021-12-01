@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>replit</title>
+    <title>Joshua, Web Developer</title>
     <link
     href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
     rel="stylesheet"
@@ -21,9 +21,9 @@
         <!-- adding a nav to easily jump to sections -->
 
         <nav>
-          <a href="intro" class="l"> Intro </a> 
-          <a href="aboutMe" calss="c">About Me</a> 
-          <a href="contact" class ="r">Contact</a>
+          <a href="#intro" >Intro</b></a> 
+          <a href="#aboutMe" >About Me</a> 
+          <a href="#contact" >Contact</a>
         </nav>
       </div>
     </header>
@@ -34,29 +34,29 @@
       <div>
        <article>
          <section id="intro" class= "darkbg">
-           <img src= "images/upper.jpg" width = "300px" alt = "Image of Joshua Sonnenfroh in a vest-suit." class= "imgCenter">
+           <img src= "images/upper.jpg" width = "300px" alt = "Image of Joshua Sonnenfroh" class= "imgCenter">
 
            <!-- talk about what you love doing -->
             
-           <h3 class="center">I'm Joshua Sonnenfroh</h3>
-            <h5 class="center">It's nice to meet you!</h5>
+           <h2 class="center">I'm Joshua Sonnenfroh</h2>
+            <h3 class="center">It's nice to meet you!</h3>
 
             <p class="center">I'm currently developing my skills as a <em>software engineer</em>.</p>
 
-            <p class="center">Currently, I've been running my own business, "<strong>Just Perfect Studios</strong>", as
-              a <em>Sutdio Engineer</em>.</p>
+            <p class="center">I've been running my own business, "<strong>Just Perfect Studios</strong>", as
+              a <em>Studio Engineer</em>.</p>
 
             <p class="center">I currently enjoy the following.
               <!-- class="indent" displays the lst in the correct loacation -->
-              <ul class="indent"!important>
+              <ul class="indent">
                 <li>Producing music</li>
                 <li>Learning new things about software development</li>
                 <li>Gaming with friends in my downtime</li>
               </ul>
             </p>
 
-            <p class="center">I'd love to share ideas and discuss interesting subjects with you.
-              You can contact me <a href="contact">here</a>
+            <p class= "center">I'd love to share ideas and discuss interesting subjects with you.
+              You can contact me <a href="#contact">here</a>
             </p>    
          </section>
 
@@ -65,18 +65,18 @@
 
            <!-- talk a little bit more about yourself so they get to know you -->
 
-           <h3 class="center">About Me</h3>
+           <h2 class="center">About Me</h2>
 
-           <p class="center">I was born on July 2, 1995. Since that day I've done everything in my power to learn as much as I possibly can in subjects that interested me. At the age of 15, I could play <em>13 instruments</em> fluently, almost like music was just a second nature to me. Then I learned to produce music and I've helped artist publish over 20 songs so far.
+           <p class="center">I was born on July 2, 1995. Since that day, I've done everything in my power to learn as much as I possibly can in subjects that interest me. At the age of 15, I could play <em>13 instruments</em> fluently, almost like music was just second nature to me. Then I learned to produce music and I've helped several artists publish over 20 songs so far.
            </p>
 
-           <p class="center">After that, I discovered a new-found interest in <em>3D animating</em>. I haven't published any animations yet but I have spent months playing around with the programs so I could fully understand everything that went into making animations. In the program there is an add-on called <em>MustardUI</em>, which allows you to do certain things in the program without having to code. I wanted to know how it worked so bad, so I opened the <strong>.py</strong> to see for myself. </p>
+           <p class="center">After that, I discovered a new-found interest in <em>3D animating</em>. I haven't published any animations yet but I have spent months playing around with the programs so I could fully understand everything that went into making animations. In the program, there is an add-on called <em>MustardUI</em>, which allows you to do certain things in the program without writing any new code. I wanted to know how it worked so bad. So I opened the <strong>.py</strong> to see for myself. </p>
 
-           <p class="center">Which brings us today! I understood absolutely nothing about the coding that went into the add-on. So I started browsing the internet to find out what was happening, which is where I discovered <em>Thinkful</em>. I'm to grow my knowledge in coding so that I can be a <em>web devloper</em> and <em>software engineer</em> in the future.</p>
+           <p class="center">Which brings us to today! I understood absolutely nothing about the coding that went into the add-on. So I started browsing the internet to find out what was happening. That's where I discovered <em>Thinkful</em>. I'm to grow my knowledge in coding so that I can be a <em>web developer</em> and <em>software engineer</em> in the future.</p>
          </section>
 
          <section id= "contact" class= "darkbg">
-           <h3 class="center">Contact Me</h3>
+           <h2 class="center">Contact Me</h2>
 
            <p class="center">I'd love to share ideas or maybe collaborate on a project. You can get ahold of me by clicking one of the links below.</p>
 
@@ -91,7 +91,16 @@
            <!-- used an integrated Google Maps feature to code a general location
            https://google-map-generator.com/ -->
 
-           <div class="moveMap" class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=downtown%20Columbus,%20Ohio&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a><br><style>.mapouter{position:relative;text-align:center;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net">embed google maps iframe</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
+           <div class="moveMap">
+             <div class="gmap_canvas">
+               <iframe class="map" width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=downtown%20Columbus,%20Ohio&t=&z=11&ie=UTF8&iwloc=&output=embed" >
+               </iframe>
+               
+               <br>
+
+               <a href="https://www.embedgooglemap.net">embed google maps iframe</a>
+             </div>
+           </div>
           </section>
        </article>
      </div>

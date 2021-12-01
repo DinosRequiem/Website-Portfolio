@@ -41,6 +41,30 @@
   margin-left: 550px;
 }
 
+/* moving the classes for the google map as requested*/
+
+.map {
+  frameborder: "0";
+  scrolling: "no";
+  marginhieght: "0";
+  Marginwidth: "0";
+
+}
+
+.mapouter {
+  position:relative;
+  text-align:center;
+  height:500px;
+  width:600px;
+}
+
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  height:500px;
+   width:600px;
+}
+
 /* Overall CSS */
 /* creates a background that contrasts nicely with darkbg */
 body {
@@ -57,14 +81,14 @@ h1 {
 }
 
 h4 {
-  color: rgb(182, 7, 7);
+  color: rgb(255, 255, 255);
   font-size: 23px;
 }
 
-a:link {color: #ff00dd}
-a:visited {color: #8d0000}
+a:link {color: #ffffff}
+a:visited {color: #ff0000}
 a:hover {color: #000000}
-a:active {color: #ffffff}
+a:active {color: #a3a3a3}
 
 /* using what i learned from adventure drill to make it more appealing */
 
@@ -111,8 +135,8 @@ p {
   font-family: 'Times New Roman', Times, serif;
 }
 
-h3 {
+h2 {
   font-size: 20px;
-  color: darkblue;
+  color: rgb(255, 255, 255);
   font-family: cursive;
 }
