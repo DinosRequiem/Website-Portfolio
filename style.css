@@ -24,19 +24,22 @@
   margin-right: auto;
   width: 50%;
 }
-/* moves the "ul" code to project correctly on the website */
-.indent {
-  padding-left: 750px;
-}
-/* moves the "ol" code to project correctly on the site */
-.indentAlt {
-  padding-left: 830px;
-}
 
 /* img center didnt move the map to the correct location, this code does that for me */
-.moveMap {
-  margin-left: 550px;
-}
+  .google-maps {
+        position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        border-radius: 100px;
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 85% !important;
+    }
 
 /* moving the classes for the google map as requested*/
 
@@ -136,4 +139,18 @@ h2 {
   font-size: 20px;
   color: rgb(255, 255, 255);
   font-family: cursive;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+}
+
+div {
+  text-align: center;
+}
+
+ol {
+  display: inline-block;
+  text-align: left;
 }
