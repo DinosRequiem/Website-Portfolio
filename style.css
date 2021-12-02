@@ -96,7 +96,7 @@ a:active {color: #a3a3a3}
 header {
   color: #fff;
   font-family: arial;
-  background-color: #36b3a8;
+  background-color: #000000;
   padding: 15px 40px;         
   border-radius: 0px;       
 }
@@ -113,7 +113,7 @@ nav a {
   font-size: 18px;
   font-family: Quattrocento, sans-serif;
   color: #fff;
-  background-image: url(images/galaxy.png);
+  background-color: rgb(51, 51, 51);
   padding: 5px 20px;         
   border-radius: 100px;
   text-decoration: none;
